@@ -5,8 +5,8 @@ body {
     padding: 50px;
 }
 
-h1 {
-    color: #333;
+h1{
+    color #333;
 }
 
 input {
@@ -14,21 +14,24 @@ input {
     margin: 5px;
     border-radius: 6px;
     border: 1px solid #ccc;
-}
+    }
 
-button {
-    padding: 10px 15px;
-    background: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
+    button {
+        padding:10px 15px;
+        background: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
 
-li {
-    background: white;
-    margin: 5px auto;
-    width: 300px;
-    padding: 8px;
-    border-radius: 5px;
-}
+    li {
+        bacground: white;
+        margin: 5px auto;
+        width:300px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+        
+    
+    
