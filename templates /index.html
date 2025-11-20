@@ -1,11 +1,11 @@
-<!doctype html>
+<!docytype html>
 <html lang="tr">
-<head>
+<head> 
     <meta charset="utf-8">
-    <title>Docker Flask Uygulaması</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
+    <tittle>Docker Flask Uygulaması</tittle>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head> 
+</body>
     <h1>Docker Flask Uygulaması</h1>
 
     <form method="POST">
@@ -16,9 +16,12 @@
 
     <h3>Gönderilen Mesajlar</h3>
     <ul>
-        {% for item in mesajlar %}
+        {% for item in Mesajlar %}
             <li><b>{{ item.isim }}</b>: {{ item.mesaj }}</li>
         {% endfor %}
     </ul>
 </body>
 </html>
+    
+    
+        
